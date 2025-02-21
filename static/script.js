@@ -1,33 +1,3 @@
-/*function legacyCopy(text) {
-    const textarea = document.createElement("textarea");
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand("copy");
-    document.body.removeChild(textarea);
-}
-function codeCopy() {
-    document.querySelectorAll("code").forEach((codeBlock) => {
-        codeBlock.style.cursor = "pointer";
-        codeBlock.addEventListener("click", function () {
-            const text = this.innerText;
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(text).then(() => {
-                    this.classList.add("copied");
-                    setTimeout(() => this.classList.remove("copied"), 1000);
-                }).catch(err => {
-                    legacyCopy(text);
-                });
-            } else {
-                legacyCopy(text);
-            }
-        });
-    });
-}
-
-document.addEventListener("DOMContentLoaded", codeCopy);*/
-
-
 function legacyCopy(text) {
     const textarea = document.createElement("textarea");
     textarea.value = text;
