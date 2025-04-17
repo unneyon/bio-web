@@ -1,0 +1,21 @@
+[Unit]
+Description=BIO of @whypodg
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/bio
+ExecStart=python3 -B main.py
+RestartSec=10
+User=root
+PrivateTmp=yes
+CPUAccounting=yes
+MemoryAccounting=yes
+CPUQuota=25%
+MemoryLimit=1000M
+RemainAfterExit=no
+Restart=on-failure
+TimeoutSec=60
+
+[Install]
+WantedBy=multi-user.target

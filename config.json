@@ -1,0 +1,35 @@
+{
+    "title": "unneyon",
+    "name": "Матвей Котъ",
+    "job_title": "Middle Python developer",
+    "email": "me@unneyon.ru",
+    "start_experience": 1585688400,
+    "main_lang": "Python",
+    "basic_tools": [
+        "Python: aiogram, pyrogram, vkwave, vkbottle, FastAPI"
+    ],
+    "row_databases": [
+        "SQLite",
+        "PostgreSQL"
+    ],
+    "web_servers": [
+        "Nginx"
+    ],
+    "virtualization": [
+        "Docker"
+    ],
+    "social_links": {
+        "github": {
+            "source": "https://github.com/unneyon",
+            "label": "GitHub"
+        },
+        "telegram": {
+            "source": "https://t.me/unneyon",
+            "label": "Telegram"
+        },
+        "vk": {
+            "source": "https://vk.com/unneyon",
+            "label": "VK"
+        }
+    }
+}
